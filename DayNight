@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int day = 24;
+
+    cin>>day;
+
+    if(day > 18  ){
+        cout<<"Night";
+
+    }
+    else if(day <6)
+    cout<<"Night";
+
+    else
+    cout<<"Day";
+    
+
+    return 0;
+}
